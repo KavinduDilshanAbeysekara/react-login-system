@@ -4,6 +4,7 @@ import Login from './components/Login';
 import ProtectedRoute from './components/ProtectedRoute';
 import ListEmployeeComponent from './components/ListEmployeeComponent';
 import AddEmployeeComponent from './components/AddEmployeeComponent';
+import './App.css';
 
 const App: React.FC = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
